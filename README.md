@@ -13,5 +13,6 @@ yarn start
 
 ```
 yarn build
+git commit
 git push
 ```

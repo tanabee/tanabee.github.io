@@ -7,6 +7,7 @@ import config from '../../config';
 import ReactGA from 'react-ga';
 
 ReactGA.initialize('UA-141719032-1');
+ReactGA.pageview('/');
 
 const Publication = ({ title, href, type, children, image, date }) => (
   <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
