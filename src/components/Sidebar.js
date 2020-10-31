@@ -11,11 +11,12 @@ export class Sidebar extends Component {
     this.state = {
       tabs: [
         { content: 'About', href: 'about' },
+        { content: 'Publication', href: 'publication' },
+        { content: 'Open Source', href: 'oss' },
         { content: 'Experience', href: 'experience' },
+        { content: 'Project', href: 'project' },
         { content: 'Education', href: 'education' },
         { content: 'Skills', href: 'skills' },
-        { content: 'Interests', href: 'interests' },
-        { content: 'Awards', href: 'awards' },
       ],
       isCollapsed: true,
     };
@@ -31,10 +32,7 @@ export class Sidebar extends Component {
   render() {
     const { tabs, isCollapsed } = this.state;
     return (
-      <nav
-        className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-        id="sideNav"
-      >
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a className="navbar-brand" href="#page-top">
           <span className="d-block d-lg-none">
             {config.firstName} {config.lastName}
@@ -48,9 +46,7 @@ export class Sidebar extends Component {
           </span>
         </a>
         <button
-          className={`navbar-toggler navbar-toggler-right ${
-            isCollapsed ? 'collapsed' : ''
-            }`}
+          className={`navbar-toggler navbar-toggler-right ${isCollapsed ? 'collapsed' : ''}`}
           type="button"
           data-toggle="collapse"
           aria-controls="navbarSupportedContent"
@@ -60,10 +56,12 @@ export class Sidebar extends Component {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`}
-          id="navbarSupportedContent">
+        <div
+          className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`}
+          id="navbarSupportedContent"
+        >
           <Scrollspy
-            items={tabs.map(s => s.href)}
+            items={tabs.map((s) => s.href)}
             currentClassName="active"
             offset={-300}
             className="navbar-nav"

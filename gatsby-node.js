@@ -1,7 +1,8 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const path = require('path');
+const fs = require('fs-extra');
 
-// You can delete this file if you're not using it
+exports.onPostBuild = () => {
+  fs.copySync(path.join(__dirname, 'public'), path.join(__dirname, 'docs'), {
+    overwrite: true,
+  });
+};

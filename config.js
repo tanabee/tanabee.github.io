@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'tanabee portfolio', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,32 +8,50 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  firstName: 'Yuki',
+  lastName: 'Tanabe',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/tanabee',
     },
     {
-      icon: 'fa-linkedin-in',
-      name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      image: 'qiita.png',
+      name: 'Qiita',
+      url: 'https://qiita.com/tanabee',
+    },
+    {
+      icon: 'fa-medium-m',
+      name: 'Medium',
+      url: 'https://medium.com/@tanabee',
+    },
+    {
+      icon: 'fa-speaker-deck',
+      name: 'Speaker Deck',
+      url: 'https://speakerdeck.com/tanabee/',
+    },
+    {
+      icon: 'fa-slideshare',
+      name: 'SlideShare',
+      url: 'https://www.slideshare.net/tanabee',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/_tanabee',
     },
     {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-linkedin-in',
+      name: 'Linkedin',
+      url: 'https://linkedin.com/in/tanabee/',
+    },
+    {
+      icon: 'fa-stack-overflow',
+      name: 'Stack Overflow',
+      url: 'https://stackoverflow.com/users/9739746/tanabee',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  place: 'Tokyo / Japan',
 };
