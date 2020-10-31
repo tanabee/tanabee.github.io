@@ -1,3 +1,5 @@
+// ビルドディレクトリを docs に変更
+// https://github.com/gatsbyjs/gatsby/issues/18975#issuecomment-607329178
 const path = require('path');
 const fs = require('fs-extra');
 
