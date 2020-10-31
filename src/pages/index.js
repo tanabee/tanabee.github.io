@@ -4,6 +4,9 @@ import Layout from '../components/Layout';
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-141719032-1');
 
 const Publication = ({ title, href, type, children, image, date }) => (
   <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
