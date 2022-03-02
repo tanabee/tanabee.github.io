@@ -1,6 +1,6 @@
 ## About
 
-tanabee portfolio: https://tanabee.github.io
+tanabee portfolio: https://tanabee.dev
 
 ## Development
 
