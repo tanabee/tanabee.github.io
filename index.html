@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yuki Tanabe</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --fg: #1a1a1a;
+        --muted: #666;
+        --accent: #663399;
+        --bg: #fafafa;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: #eaeaea;
+          --muted: #999;
+          --bg: #111;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+          Arial, sans-serif;
+        color: var(--fg);
+        background: var(--bg);
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 2rem 1.25rem;
+        line-height: 1.6;
+      }
+      main {
+        max-width: 32rem;
+        width: 100%;
+      }
+      h1 {
+        font-size: clamp(2rem, 5vw, 2.75rem);
+        margin: 0 0 0.25rem;
+        letter-spacing: -0.01em;
+      }
+      .location {
+        color: var(--muted);
+        margin: 0 0 2rem;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem 1.25rem;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Yuki Tanabe</h1>
+      <p class="location">Tokyo / Japan</p>
+      <ul>
+        <li><a href="https://github.com/tanabee">GitHub</a></li>
+        <li><a href="https://twitter.com/_tanabee">Twitter</a></li>
+        <li><a href="https://linkedin.com/in/tanabee/">LinkedIn</a></li>
+        <li><a href="https://medium.com/@tanabee">Medium</a></li>
+        <li><a href="https://qiita.com/tanabee">Qiita</a></li>
+        <li><a href="https://speakerdeck.com/tanabee/">Speaker Deck</a></li>
+      </ul>
+    </main>
+  </body>
+</html>
