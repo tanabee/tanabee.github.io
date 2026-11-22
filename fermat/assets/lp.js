@@ -107,7 +107,8 @@
   function render() {
     const preset = PRESETS[presetIdx];
     boardEl.className = `p-board cols-${preset.cols}`;
-    boardEl.style.gridTemplateColumns = `repeat(${preset.cols}, 1fr)`;
+    boardEl.style.gridTemplateColumns = `repeat(${preset.cols}, minmax(0, 1fr))`;
+    boardEl.style.gridTemplateRows = `repeat(${preset.cols}, minmax(0, 1fr))`;
     boardEl.innerHTML = "";
 
     cells.forEach((val, idx) => {

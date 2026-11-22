@@ -483,11 +483,17 @@ a:hover {
 
 .p-tile {
   appearance: none;
-  border: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  border: 1.5px solid transparent;
   border-radius: 12px;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.45rem;
+  line-height: 1;
   display: grid;
   place-items: center;
   transition: transform 0.16s ease, background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
@@ -559,7 +565,7 @@ a:hover {
 .p-footer {
   padding-top: 0.75rem;
   border-top: 1.5px solid var(--slate);
-  min-height: 62px;
+  height: 68px;
   display: grid;
   place-items: center;
 }
