@@ -1,63 +1,528 @@
 <!doctype html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FERMAT | FERMAT</title>
-    <style>
-      :root {
-        color-scheme: light dark;
-        --fg: #1a1a1a;
-        --muted: #666;
-        --accent: #1f8a5f;
-        --bg: #fafafa;
-        --line: #ddd;
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MRMV9D5PC5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-MRMV9D5PC5');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FERMAT（フェルマー）- 数字の記憶力ゲーム | 全45ステージの脳トレアプリ（iOS・Android）</title>
+<meta name="description" content="並んだ数字の位置を覚えて1から順番にタップする無料の記憶力ゲームアプリ（iOS・Android）。5枚から始まり最後は7×7の49枚まで全45ステージ。時間制限なし・アカウント登録不要・オフライン対応。クリア盤面の画像シェア機能付き。">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://tanabee.github.io/fermat/ja/">
+<link rel="alternate" hreflang="en" href="https://tanabee.github.io/fermat/">
+<link rel="alternate" hreflang="ja" href="https://tanabee.github.io/fermat/ja/">
+<link rel="alternate" hreflang="x-default" href="https://tanabee.github.io/fermat/">
+<meta name="theme-color" content="#98DFBF">
+<meta name="apple-itunes-app" content="app-id=1070977437">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FERMAT">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="FERMAT（フェルマー）- 数字の記憶力ゲーム | 記憶力の限界へのチャレンジ">
+<meta property="og:description" content="並んだ数字の位置を覚えて1から順番にタップ。5枚から7×7の49枚まで全45ステージの無料記憶力ゲーム（iOS・Android）。">
+<meta property="og:url" content="https://tanabee.github.io/fermat/ja/">
+<meta property="og:image" content="https://tanabee.github.io/fermat/assets/img/og-ja.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="FERMAT - 記憶力の限界へのチャレンジ">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FERMAT（フェルマー）- 数字の記憶力ゲーム | 全45ステージの脳トレアプリ">
+<meta name="twitter:description" content="並んだ数字の位置を覚えて1から順番にタップ。5枚から7×7の49枚まで全45ステージ。時間制限なし・登録不要・無料。">
+<meta name="twitter:image" content="https://tanabee.github.io/fermat/assets/img/og-ja.png">
+
+<!-- Structured Data: MobileApplication -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "FERMAT - 数字の記憶力ゲーム",
+  "alternateName": ["FERMAT", "フェルマー", "FERMAT 記憶力ゲーム"],
+  "url": "https://tanabee.github.io/fermat/ja/",
+  "description": "並んだ数字の位置を覚えて、1から順番にタップしていくシンプルな記憶力ゲーム（iOS・Android）。最初のステージは5枚、最後は7×7の49枚まで全45ステージ。時間制限なし・アカウント登録不要・オフライン対応。",
+  "applicationCategory": "GameApplication",
+  "applicationSubCategory": "Puzzle",
+  "operatingSystem": "Android, iOS",
+  "inLanguage": ["ja", "en"],
+  "image": "https://tanabee.github.io/fermat/assets/img/icon-512.png",
+  "screenshot": [
+    "https://tanabee.github.io/fermat/assets/img/ja/01.webp",
+    "https://tanabee.github.io/fermat/assets/img/ja/02.webp",
+    "https://tanabee.github.io/fermat/assets/img/ja/03.webp",
+    "https://tanabee.github.io/fermat/assets/img/ja/04.webp",
+    "https://tanabee.github.io/fermat/assets/img/ja/05.webp",
+    "https://tanabee.github.io/fermat/assets/img/ja/06.webp"
+  ],
+  "featureList": [
+    "5枚から7×7の49枚まで、1枚ずつ増える全45ステージ",
+    "時間制限なし・自分のペースでじっくり暗記",
+    "ルールがすぐ分かる4枚の練習ステージ付き",
+    "クリアした盤面の画像を付けてSNSや友達にシェア可能",
+    "アカウント登録不要・オフラインで遊べる",
+    "Android・iPhone・iPad対応"
+  ],
+  "installUrl": [
+    "https://play.google.com/store/apps/details?id=jp.co.monopocket.fermat&hl=ja",
+    "https://apps.apple.com/jp/app/id1070977437"
+  ],
+  "downloadUrl": [
+    "https://play.google.com/store/apps/details?id=jp.co.monopocket.fermat&hl=ja",
+    "https://apps.apple.com/jp/app/id1070977437"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "JPY"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Yuki Tanabe",
+    "url": "https://tanabee.github.io/"
+  }
+}
+</script>
+
+<!-- Structured Data: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "FERMAT（フェルマー）の遊び方を教えてください。",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "カードに書かれた数字の位置を覚えて「覚えた！」を押すと、すべてのカードが裏返ります。1から順番にカードをタップし、最後までめくれたらステージクリアです。順番を間違えるとそこで終了になります。"
       }
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --fg: #eaeaea;
-          --muted: #999;
-          --accent: #98dfbf;
-          --bg: #111;
-          --line: #333;
-        }
+    },
+    {
+      "@type": "Question",
+      "name": "ステージは全部でいくつありますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "最初の4枚の練習ステージに加えて、本編は全45ステージあります。レベル1は3×3盤面の5枚から始まり、ステージが進むたびに1枚ずつ増えて、最終レベル45では7×7のマスがすべて埋まる49枚になります。"
       }
-      * { box-sizing: border-box; }
-      html, body { margin: 0; padding: 0; }
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Helvetica, Arial, sans-serif;
-        color: var(--fg);
-        background: var(--bg);
-        line-height: 1.8;
+    },
+    {
+      "@type": "Question",
+      "name": "覚える時間に制限はありますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "時間制限はありません。「覚えた！」を押すまでじっくり盤面を眺めることができるので、自分のペースで記憶力に挑戦できます。"
       }
-      main { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
-      h1 { font-size: 1.6rem; line-height: 1.4; margin: 0 0 1.5rem; }
-      h2 { font-size: 1.2rem; margin: 2.5rem 0 0.75rem; padding-bottom: 0.25rem; border-bottom: 1px solid var(--line); }
-      h3 { font-size: 1.05rem; margin: 1.75rem 0 0.5rem; }
-      a { color: var(--accent); }
-      ul { padding-left: 1.4rem; }
-      footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
-    </style>
-  </head>
-  <body>
-    <main>
-      <h1>FERMAT ― 記憶力の限界へのチャレンジ</h1>
-      <p>並んだ数字の位置を覚えて、1 から順番にタップしていく記憶力ゲームです（Android / iOS）。</p>
-      <ul>
-      <li><strong>覚える</strong> ― カードに書かれた数字の位置を覚えます。</li>
-      <li><strong>タップする</strong> ― カードが裏返ったら、1 から順番にタップ。間違えたらそこで終了です。</li>
-      <li><strong>45 ステージ</strong> ― 5 枚から始まり、ステージが進むたびに 1 枚ずつ増えていきます。最後は 7×7 の 49 枚。</li>
-      <li><strong>自慢する</strong> ― クリアした盤面の画像を付けてシェアできます。</li>
-      </ul>
-      <h2>リンク</h2>
-      <ul>
-      <li><a href="https://play.google.com/store/apps/details?id=jp.co.monopocket.fermat">Google Play</a></li>
-      <li><a href="https://apps.apple.com/jp/app/id1070977437">App Store</a></li>
-      <li><a href="/fermat/privacy/ja/">プライバシーポリシー</a></li>
-      <li><a href="/fermat/">English</a></li>
-      <li>お問い合わせ: tanabee.dev@gmail.com</li>
-      </ul>
-      <footer><a href="/fermat/ja/">FERMAT</a></footer>
-    </main>
-  </body>
+    },
+    {
+      "@type": "Question",
+      "name": "アカウント登録やインターネット接続は必要ですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不要です。アカウント登録やログインなしでそのまま遊べ、オフライン環境でも動作します。進み具合は端末の中にだけ保存されます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "料金はかかりますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "完全無料で遊べます（アプリ内課金はありません）。Android（Google Play）およびiOS（App Store、iPhone・iPad対応）で配信しています。やり直しのときに広告が表示されることがあります。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "クリアした記録を友達にシェアできますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい。ステージクリア画面の「自慢する」ボタンから、クリアした盤面の画像を付けて結果をシェアできます。"
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/lp.css?v=1">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="FERMAT トップへ">
+      <img src="../assets/img/icon.webp" alt="FERMAT アプリアイコン" width="34" height="34">
+      <span class="brand-name">FERMAT</span>
+    </a>
+    <nav class="links" aria-label="ページ内ナビゲーション">
+      <a href="#how-to-play">遊び方</a>
+      <a href="#stages">全45ステージ</a>
+      <a href="#screens">画面一覧</a>
+      <a href="#features">特徴</a>
+      <a href="#faq">よくある質問</a>
+      <a class="keep lang" href="../" hreflang="en" lang="en">English</a>
+      <a class="keep nav-cta" href="#download">無料ダウンロード</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ==================== HERO ==================== -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>全45ステージ · 5枚〜49枚 · 無料</p>
+        <h1><em>記憶力の限界</em>へのチャレンジ。</h1>
+        <p class="lead">
+          FERMAT（フェルマー）は、並んだ数字の位置を覚えて 1 から順番にタップしていくシンプルな記憶力ゲームです。
+          すきま時間の脳トレにも、家族や友達との記録比べにも。
+        </p>
+
+        <div class="hero-kpis" aria-label="主な特徴">
+          <div class="kpi"><strong>45</strong><span>ステージ</span></div>
+          <div class="kpi"><strong>5 → 49枚</strong><span>最大 7×7 盤面</span></div>
+          <div class="kpi"><strong>無制限</strong><span>時間制限なし</span></div>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="https://apps.apple.com/jp/app/id1070977437">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.8 1.2 1.8 2.6 3.1 2.5 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.6-1-2.1-4.2ZM13.9 5c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4Z"/></svg>
+            <span><small>iPhone / iPad</small>App Store で入手</span>
+          </a>
+          <a class="btn coral" href="https://play.google.com/store/apps/details?id=jp.co.monopocket.fermat&amp;hl=ja">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.2 2.3c-.3.3-.4.7-.4 1.2v17c0 .5.1.9.4 1.2l.1.1 9.5-9.5v-.2L4.3 2.2l-.1.1Zm12.8 12.7-3.2-3.2v-.2l3.2-3.2.1.1 3.8 2.1c1.1.6 1.1 1.6 0 2.2l-3.8 2.2h-.1Zm-.1.1L13.7 12l-9.5 9.5c.4.4.9.4 1.6.1l11.1-6.4M16.9 8.9 5.8 2.5c-.7-.4-1.2-.3-1.6.1l9.5 9.4 3.2-3.1Z"/></svg>
+            <span><small>Android</small>Google Play で入手</span>
+          </a>
+        </div>
+
+        <p class="meta-tags">
+          <span>完全無料</span>
+          <span>アカウント登録不要</span>
+          <span>オフライン対応</span>
+          <span>iOS・Android 対応</span>
+        </p>
+      </div>
+
+      <!-- Interactive Playable Demo -->
+      <div class="hero-demo" id="fermat-demo" data-lang="ja">
+        <div class="demo-tabs" role="tablist" aria-label="ミニ体験ステージの切り替え">
+          <button type="button" class="active" role="tab" aria-selected="true">Lv.1 (5枚)</button>
+          <button type="button" role="tab" aria-selected="false">Lv.4 (8枚)</button>
+          <button type="button" role="tab" aria-selected="false">Lv.8 (12枚)</button>
+        </div>
+
+        <div class="phone" aria-label="FERMAT インタラクティブ体験デモ">
+          <div class="phone-screen">
+            <div class="p-notch" aria-hidden="true"></div>
+            <div class="p-header">
+              <div class="p-level" id="p-level">Level-1</div>
+              <button type="button" class="p-reset" id="p-reset" title="やり直す" aria-label="やり直す">×</button>
+            </div>
+
+            <div class="p-board-wrap">
+              <div class="p-board" id="p-board"></div>
+            </div>
+
+            <div class="p-footer" id="p-footer"></div>
+
+            <div class="p-overlay" id="p-overlay" aria-live="polite">
+              <h2 class="p-overlay-title" id="p-overlay-title">STAGE CLEAR!</h2>
+              <p class="p-overlay-sub" id="p-overlay-sub"></p>
+              <button type="button" class="p-btn" id="p-overlay-primary">次のレベルへ</button>
+              <button type="button" class="p-btn-outline" id="p-overlay-secondary">もう一回</button>
+            </div>
+          </div>
+        </div>
+        <p class="demo-caption">この場で体験できます — 数字を覚えたら<strong>「覚えた！」</strong>をタップ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== HOW TO PLAY ==================== -->
+  <section class="block" id="how-to-play">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">遊び方</span>
+        <h2>ルールは 3 ステップ。誰でもすぐ始められる。</h2>
+        <p>複雑な操作も制限時間もありません。純粋に「どこにどの数字があったか」だけを覚えるシンプルな脳トレゲームです。</p>
+      </div>
+
+      <div class="steps">
+        <article class="step reveal">
+          <span class="step-num">1</span>
+          <h3>数字の位置を覚える</h3>
+          <p>盤面に並んだカードの位置を覚えます。時間制限はないので、納得するまでじっくり眺めて大丈夫です。</p>
+          <div class="mini-tiles" aria-hidden="true">
+            <span class="mini-tile m">3</span>
+            <span class="mini-tile e"></span>
+            <span class="mini-tile m">1</span>
+            <span class="mini-tile m">2</span>
+          </div>
+        </article>
+
+        <article class="step reveal">
+          <span class="step-num coral">2</span>
+          <h3>1 から順番にタップ</h3>
+          <p><strong>「覚えた！」</strong>を押すとカードが裏返ります。1、2、3… と順番にタップ。1 度でも間違えたらそこで終了です。</p>
+          <div class="mini-tiles" aria-hidden="true">
+            <span class="mini-tile h"></span>
+            <span class="mini-tile e"></span>
+            <span class="mini-tile m">1</span>
+            <span class="mini-tile h"></span>
+          </div>
+        </article>
+
+        <article class="step reveal">
+          <span class="step-num">3</span>
+          <h3>クリア＆記録を自慢</h3>
+          <p>最後のカードまでめくれたらステージクリア。クリアした盤面の画像を付けて、そのまま友達にシェアできます。</p>
+          <div class="mini-tiles" aria-hidden="true">
+            <span class="mini-tile m">3</span>
+            <span class="mini-tile m">4</span>
+            <span class="mini-tile m">1</span>
+            <span class="mini-tile m">2</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 45 STAGES ==================== -->
+  <section class="block tinted" id="stages">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">全 45 ステージ</span>
+        <h2>5 枚から始まり、最後は 7×7 の 49 枚へ。</h2>
+        <p>ステージが進むたびにカードが 1 枚ずつ増え、盤面も徐々に広がっていきます。あなたの記憶力はレベルいくつまで通用しますか？</p>
+      </div>
+
+      <div class="stages-grid reveal">
+        <div class="stage-card">
+          <div class="grid-icon" style="grid-template-columns:repeat(2,1fr)" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div class="stage-size">2×2</div>
+          <div class="stage-meta"><b>練習ステージ</b>4 枚</div>
+        </div>
+        <div class="stage-card">
+          <div class="grid-icon" style="grid-template-columns:repeat(3,1fr)" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="stage-size">3×3</div>
+          <div class="stage-meta"><b>Lv. 1 – 5</b>5 – 9 枚</div>
+        </div>
+        <div class="stage-card">
+          <div class="grid-icon" style="grid-template-columns:repeat(4,1fr)" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="stage-size">4×4</div>
+          <div class="stage-meta"><b>Lv. 6 – 12</b>10 – 16 枚</div>
+        </div>
+        <div class="stage-card">
+          <div class="grid-icon" style="grid-template-columns:repeat(5,1fr)" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="stage-size">5×5</div>
+          <div class="stage-meta"><b>Lv. 13 – 21</b>17 – 25 枚</div>
+        </div>
+        <div class="stage-card">
+          <div class="grid-icon" style="grid-template-columns:repeat(6,1fr)" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="stage-size">6×6</div>
+          <div class="stage-meta"><b>Lv. 22 – 32</b>26 – 36 枚</div>
+        </div>
+        <div class="stage-card final-stage">
+          <div class="grid-icon" style="grid-template-columns:repeat(7,1fr)" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="stage-size">7×7</div>
+          <div class="stage-meta"><b>Lv. 33 – 45</b>37 – 49 枚</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SCREENSHOTS ==================== -->
+  <section class="block" id="screens">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">画面一覧</span>
+        <h2>余計な装飾のない、集中できるデザイン。</h2>
+        <p>Android・iPhone・iPad それぞれの画面に合わせてネイティブ実装。軽快に気持ちよく遊べます。</p>
+      </div>
+
+      <div class="shots">
+        <figure class="shot-card reveal">
+          <div class="shot-frame">
+            <img src="../assets/img/ja/01.webp" alt="FERMAT のホーム画面" loading="lazy" width="540" height="960">
+          </div>
+          <h3>シンプルなスタート</h3>
+          <p>起動してすぐスタート。面倒なチュートリアルや登録画面はありません。</p>
+        </figure>
+
+        <figure class="shot-card reveal">
+          <div class="shot-frame">
+            <img src="../assets/img/ja/02.webp" alt="レベル8の記憶中画面（4×4盤面に12枚の数字）" loading="lazy" width="540" height="960">
+          </div>
+          <h3>記憶タイム</h3>
+          <p>並んだ数字をしっかり暗記。準備ができたら「覚えた！」をタップ。</p>
+        </figure>
+
+        <figure class="shot-card reveal">
+          <div class="shot-frame">
+            <img src="../assets/img/ja/03.webp" alt="レベル8の入力中画面（数字の順番通りにタップ）" loading="lazy" width="540" height="960">
+          </div>
+          <h3>順番にタップ</h3>
+          <p>1 から順番にめくっていきます。正しいマスをめくるたび気持ちよく開きます。</p>
+        </figure>
+
+        <figure class="shot-card reveal">
+          <div class="shot-frame">
+            <img src="../assets/img/ja/04.webp" alt="ステージクリア画面と自慢するシェアボタン" loading="lazy" width="540" height="960">
+          </div>
+          <h3>ステージクリア＆シェア</h3>
+          <p>クリアした盤面の画像を付けて、SNS や家族・友達に記録を自慢できます。</p>
+        </figure>
+
+        <figure class="shot-card reveal">
+          <div class="shot-frame">
+            <img src="../assets/img/ja/05.webp" alt="クリア済みと未クリアが一目でわかるステージ一覧画面" loading="lazy" width="540" height="960">
+          </div>
+          <h3>ステージ一覧</h3>
+          <p>クリア状況がひと目で分かり、過去のステージにもいつでも再挑戦できます。</p>
+        </figure>
+
+        <figure class="shot-card reveal">
+          <div class="shot-frame">
+            <img src="../assets/img/ja/06.webp" alt="最終ステージ レベル45の7×7・全49枚盤面" loading="lazy" width="540" height="960">
+          </div>
+          <h3>最終ステージ：49 枚</h3>
+          <p>7×7 のマスがすべて数字で埋まるレベル 45。記憶力の限界に挑戦。</p>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FEATURES ==================== -->
+  <section class="block tinted" id="features">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">特徴</span>
+        <h2>すきま時間の脳トレに、ちょうどいい。</h2>
+        <p>毎日の頭の体操にも、ちょっとした空き時間のリフレッシュにも。</p>
+      </div>
+
+      <div class="features reveal">
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+          <h3>時間制限なし</h3>
+          <p>焦らず自分のペースで覚えられます。「覚えた！」を押すまでずっと確認可能。</p>
+        </div>
+
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></div>
+          <h3>クリア盤面を画像シェア</h3>
+          <p>実際にクリアした盤面の画像を添付して、何枚まで覚えられたか自慢できます。</p>
+        </div>
+
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+          <h3>練習ステージ付き</h3>
+          <p>初回は 4 枚の練習ステージから始まるので、説明を読まなくてもすぐ分かります。</p>
+        </div>
+
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/><path d="M3 3l18 18"/></svg></div>
+          <h3>アカウント登録不要</h3>
+          <p>ログイン不要。進み具合は端末の中にだけ保存され、すぐ遊び始められます。</p>
+        </div>
+
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 8.5a15 15 0 0 1 20 0"/><path d="M5.5 12a10 10 0 0 1 13 0"/><path d="M9 15.5a5 5 0 0 1 6 0"/><path d="M3 3l18 18"/></svg></div>
+          <h3>オフライン対応</h3>
+          <p>機内モードや地下鉄など、電波のない場所でも快適にプレイできます。</p>
+        </div>
+
+        <div class="feat">
+          <div class="feat-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+          <h3>iOS・Android 対応</h3>
+          <p>iPhone・iPad・Android スマートフォンに対応。すべてのステージを無料で遊べます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FAQ ==================== -->
+  <section class="block" id="faq">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="sec-tag">FAQ</span>
+        <h2>よくある質問</h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <details open>
+          <summary>FERMAT（フェルマー）の遊び方を教えてください。</summary>
+          <p>カードに書かれた数字の位置を覚えて「覚えた！」を押すと、すべてのカードが裏返ります。1 から順番にカードをタップし、最後までめくれたらステージクリアです。順番を間違えるとそこで終了になります。</p>
+        </details>
+        <details>
+          <summary>ステージは全部でいくつありますか？</summary>
+          <p>最初の 4 枚の練習ステージに加えて、本編は全 45 ステージあります。レベル 1 は 3×3 盤面の 5 枚から始まり、ステージが進むたびに 1 枚ずつ増えて、最終レベル 45 では 7×7 のマスがすべて埋まる 49 枚になります。</p>
+        </details>
+        <details>
+          <summary>覚える時間に制限はありますか？</summary>
+          <p>時間制限はありません。「覚えた！」を押すまでじっくり盤面を眺めることができるので、自分のペースで記憶力に挑戦できます。</p>
+        </details>
+        <details>
+          <summary>アカウント登録やインターネット接続は必要ですか？</summary>
+          <p>不要です。アカウント登録やログインなしでそのまま遊べ、オフライン環境でも動作します。進み具合は端末の中にだけ保存されます。</p>
+        </details>
+        <details>
+          <summary>料金はかかりますか？</summary>
+          <p>完全無料で遊べます（アプリ内課金はありません）。Android（Google Play）および iOS（App Store、iPhone・iPad 対応）で配信しています。やり直しのときに広告が表示されることがあります。</p>
+        </details>
+        <details>
+          <summary>クリアした記録を友達にシェアできますか？</summary>
+          <p>はい。ステージクリア画面の「自慢する」ボタンから、クリアした盤面の画像を付けて結果をシェアできます。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FINAL CTA ==================== -->
+  <section class="final" id="download">
+    <div class="wrap reveal">
+      <div class="final-card">
+        <div class="final-inner">
+          <img src="../assets/img/icon.webp" alt="FERMAT アプリアイコン" width="84" height="84">
+          <h2>あなたは何枚まで覚えられますか？</h2>
+          <p>iPhone・iPad・Android で無料配信中。5 枚から始めて、7×7 の 49 枚へ。</p>
+          <div class="cta">
+            <a class="btn primary" href="https://apps.apple.com/jp/app/id1070977437">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.8 1.2 1.8 2.6 3.1 2.5 1.2 0 1.7-.8 3.2-.8s1.9.8 3.2.8c1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8 0 0-2.6-1-2.1-4.2ZM13.9 5c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.1-.6 2.8-1.4Z"/></svg>
+              <span><small>iPhone / iPad</small>App Store で入手</span>
+            </a>
+            <a class="btn coral" href="https://play.google.com/store/apps/details?id=jp.co.monopocket.fermat&amp;hl=ja">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.2 2.3c-.3.3-.4.7-.4 1.2v17c0 .5.1.9.4 1.2l.1.1 9.5-9.5v-.2L4.3 2.2l-.1.1Zm12.8 12.7-3.2-3.2v-.2l3.2-3.2.1.1 3.8 2.1c1.1.6 1.1 1.6 0 2.2l-3.8 2.2h-.1Zm-.1.1L13.7 12l-9.5 9.5c.4.4.9.4 1.6.1l11.1-6.4M16.9 8.9 5.8 2.5c-.7-.4-1.2-.3-1.6.1l9.5 9.4 3.2-3.1Z"/></svg>
+              <span><small>Android</small>Google Play で入手</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Yuki Tanabe · <a href="../" hreflang="en" lang="en">English</a></span>
+    <nav aria-label="フッターリンク">
+      <a href="../privacy/ja/">プライバシーポリシー</a>
+      <a href="mailto:tanabee.dev@gmail.com?subject=FERMAT%20%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">tanabee.dev@gmail.com</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="../assets/lp.js?v=1" defer></script>
+</body>
 </html>

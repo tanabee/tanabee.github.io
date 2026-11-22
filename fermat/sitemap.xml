@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tanabee.github.io/fermat/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tanabee.github.io/fermat/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tanabee.github.io/fermat/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tanabee.github.io/fermat/"/>
+  </url>
+  <url>
+    <loc>https://tanabee.github.io/fermat/ja/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tanabee.github.io/fermat/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tanabee.github.io/fermat/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tanabee.github.io/fermat/"/>
+  </url>
+  <url>
+    <loc>https://tanabee.github.io/fermat/privacy/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tanabee.github.io/fermat/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tanabee.github.io/fermat/privacy/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tanabee.github.io/fermat/privacy/"/>
+  </url>
+  <url>
+    <loc>https://tanabee.github.io/fermat/privacy/ja/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tanabee.github.io/fermat/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://tanabee.github.io/fermat/privacy/ja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tanabee.github.io/fermat/privacy/"/>
+  </url>
+</urlset>
